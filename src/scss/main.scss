@@ -1,0 +1,94 @@
+@import "bootstrap/scss/bootstrap-grid";
+
+/*@font-face {
+  font-family: "PP Agrandir";
+  src: url("PPAgrandir-Regular.woff2") format("woff2");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PP Agrandir";
+  src: url("PPAgrandir-TextBold.woff2") format("woff2");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+/* ====================================
+// reset rules
+// ==================================== */
+
+:root {
+  --red: #ff0000;
+}
+
+.row + .row {
+  margin-top: 16px;
+}
+
+.row > .col,
+.row > [class^="col-"] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  background-color: rgba(86, 61, 124, 0.15);
+  border: 1px solid rgba(86, 61, 124, 0.2);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-rendering: optimizeLegibility;
+
+  font-size: 1rem;
+  line-height: 1.25;
+}
+
+a {
+  color: inherit;
+}
+
+img,
+video {
+  max-inline-size: 100%;
+  block-size: auto;
+  vertical-align: middle;
+}
+.header {
+  background-color: antiquewhite;
+}
+.container {
+  text-align: center;
+}
+.row-about {
+  text-align: center;
+}
+h2 {
+  font-family: PPAgrandirVariable_Bold;
+  font-size: 50px;
+  color: var(--red);
+  letter-spacing: 0;
+}
+p {
+  font-family: PPAgrandirVariable;
+  font-size: 16px;
+  color: var(--red);
+  letter-spacing: 0;
+  padding: 10px 0 108px 0;
+}
+
+.img-green {
+  max-width: 100%;
+  height: auto;
+}
