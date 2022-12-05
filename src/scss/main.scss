@@ -11,7 +11,7 @@
 .row + .row {
   margin-top: 16px;
 }
-
+/*
 .row > .col,
 .row > [class^="col-"] {
   padding-top: 12px;
@@ -19,7 +19,7 @@
   background-color: rgba(86, 61, 124, 0.15);
   border: 1px solid rgba(86, 61, 124, 0.2);
 }
-
+*/
 * {
   box-sizing: border-box;
   margin: 0;
@@ -100,12 +100,14 @@ p {
 
 .horaires {
   background-image: url(../img/café/pexels-photo-2323432.webp);
+  object-fit: contain;
   max-width: 100%;
   height: auto;
 }
 .galerie-img {
   max-width: 100%;
   height: auto;
+  object-fit: contain;
 
   object-fit: contain;
 }
@@ -116,6 +118,18 @@ p {
 }
 article {
   background-color: var(--white);
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.5);
+}
+.article-texte {
+  text-align: justify;
+  font-family: "PP Agrandir";
+  font-size: 16px;
+  letter-spacing: 0;
+  padding: 8px;
+}
+h3,
+.artist-name {
+  padding: 8px 0px 5px 8px;
 }
 a {
   text-decoration: none;
