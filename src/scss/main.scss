@@ -75,6 +75,7 @@ p {
 .img {
   max-width: 100%;
   height: auto;
+  display: block;
 }
 
 .img-texte {
@@ -84,4 +85,12 @@ p {
   transform: translate(50%, 50%);
   font-size: 18px;
   color: red;
+}
+footer {
+  background-color: #ff0000;
+  text-align: right;
+}
+a {
+  text-decoration: none;
+  text-align: right;
 }
