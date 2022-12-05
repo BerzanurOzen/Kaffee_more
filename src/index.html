@@ -4,21 +4,36 @@
     <meta charset="utf-8" />
     <title>eikon parcel starter</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
+    <link
+      rel="preload"
+      href="fonts/PPAgrandir-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="fonts/PPAgrandir-TextBold.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
     <h1></h1>
     <div class="container">
       <div class="row">
-        <div class="header">header</div>
+        <div class="header">
+          <div class="col-12"></div>
+        </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-6 offset-4 col-lg-4 offset-lg-4">
+        <div class="col-12"><h2>À PROPOS</h2></div>
+        <div class="col-6 offset-3 col-lg-4 offset-lg-4">
           <div class="about">
-            <h2>À PROPOS</h2>
             <p>
               MORE KOFFEE un espace ou les gens pourraient boire un café tout en
               admirant des photos d’artiste principalement de la région, mais
@@ -31,93 +46,153 @@
         </div>
       </div>
     </div>
-    <div class="img"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-12"><h2>CARTE</h2></div>
+        <div class="col-3 col-lg-2 offset-4">
+          <h3>MOCHA</h3>
+          <p class="ingredient">expresso, sirop chocolat, lait</p>
+        </div>
+        <div class="col-3 col-lg-2 offset-7">EXPRESSO</div>
+        <div class="col-3 col-lg-2 offset-4">white mocha</div>
+        <div class="col-3 col-lg-2 offset-7">cappuccino</div>
+        <div class="col-3 col-lg-2 offset-4">Flat white</div>
+        <div class="col-3 col-lg-2 offset-7">latte</div>
+        <div class="col-3 col-lg-2 offset-4">americano</div>
+        <div class="col-3 col-lg-2 offset-7">chocalate</div>
+        <div class="col-3 col-lg-2 offset-4">tea</div>
+        <div class="col-3 col-lg-2 offset-7">ice tea</div>
+      </div>
+    </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-6 offset-4 col-lg-3"><h2>CARTE</h2></div>
-          <div class="col-3 col-lg-2 offset-4">
-            MOCHA
-          </div>
-          <div class="col-3 col-lg-2 offset-7">
-          EXPRESSO
-          </div>
-          <div class="col-3 col-lg-2 offset-4 ">
-          white mocha
-          </div>
-          <div class="col-3 col-lg-2 offset-7">
-            cappuccino
-          </div>
-          <div class="col-3 col-lg-2 offset-4">
-            Flat white
-          </div>
-          <div class="col-3 col-lg-2 offset-7">
-          latte
-          </div>
-          <div class="col-3 col-lg-2 offset-4">
-            americano
-          </div>
-          <div class="col-3 col-lg-2 offset-7">
-            chocalate
-          </div>
-          <div class="col-3 col-lg-2 offset-4">
-            tea
-          </div>
-          <div class="col-3 col-lg-2 offset-7">
-          ice tea
-          </div>
+        <div class="horaires">
+          <div class="col-12"><h2>HORAIRES</h2></div>
+          <div class="col-12"><h3>LUN-VEN</h3></div>
+          <div class="col-12"><p>07:00-18:00</p></div>
+          <div class="col-12"><h3>SAM-DIM</h3></div>
+          <div class="col-12"><p>10:00-16:00</p></div>
         </div>
       </div>
     </div>
     <div class="container">
       <div class="row">
-        <div class="img-horaire">
-          <div class="img-texte">
-            <h2>HORAIRES</h2>
-            <h3>LUN-VEN</h3>
-            <p>7:00-18:00</p>
-            <h3>SAM-DIM</h3>
-            <p>10:00-16:00</p>
-          </div>
+        <div class="col-12"><h2>GALERIE</h2></div>
+
+        <div class="col-6">
+          <img
+            class="galerie-img"
+            src="/src/img/photo galerie/ansel_adams_montagne_01.png"
+            alt="ansel_adams_montagne_01"
+          />
+        </div>
+        <div class="col-6">
+          <img
+            class="galerie-img"
+            src="/src/img/photo galerie/ansel_adams_montagne_02.png"
+            alt="ansel_adams_montagne_02"
+          />
+        </div>
+        <div class="col-12">
+          <img
+            class="galerie-img"
+            src="/src/img/photo galerie/ansel_adams_montagne_03.png"
+            alt="ansel_adams_montagne_03"
+          />
+        </div>
+        <div class="col-12">
+          <img
+            class="galerie-img"
+            src="/src/img/photo galerie/ansel_adams_montagne_04.png"
+            alt="ansel_adams_montagne_04"
+          />
+        </div>
+        <div class="col">
+          <img
+            class="galerie-img"
+            src="/src/img/photo galerie/ansel_adams_montagne_05.png"
+            alt="ansel_adams_montagne_05"
+          />
+          <img
+            class="galerie-img"
+            src="/src/img/photo galerie/ansel_adams_montagne_06.png"
+            alt="ansel_adams_montagne_06"
+          />
+        </div>
+        <div class="col-3 col-lg-6">
+          <img
+            class="galerie-img"
+            src="/src/img/photo galerie/ansel_adams_montagne_07.png"
+            alt="ansel_adams_montagne_07"
+          />
         </div>
       </div>
     </div>
-    <div class="container">
-      <div class="row">
-        <div class="col-12">titre</div>
-
-        <div class="col-3 col-lg-6">photo-1</div>
-        <div class="col-3 col-lg-6">photo-2</div>
-        <div class="col-12">photo-3</div>
-        <div class="col-12">photo-4</div>
-        <div class="col">photo-5-6</div>
-        <div class="col-3 col-lg-6">photo-7</div>
-      </div>
-    </div>
 
     <div class="container">
       <div class="row">
-        <div class="col-12">PROCHAINS ARTISTES</div>
+        <div class="col-12"><h2>PROCHAINS ARTISTES</h2></div>
         <div class="col-12 col-lg-6">
-          <article>article1</article>
+          <article>
+            <img
+              class="article-img"
+              src="/src/img/lee_miller.jpeg"
+              alt="lee_miller"
+            />
+            <h3>Lee Miller</h3>
+            <p>29.12.22-15.02.23</p>
+            <p>
+              Lee Miller, née Elizabeth Miller le 23 avril 1907 à Poughkeepsie
+              dans l'État de New York aux États-Unis et morte le 21 juillet 1977
+              à Chiddingly (en) dans le Sussex de l'Est au Royaume-Uni, est une
+              photographe et reporter américaine, égérie du surréalisme.
+            </p>
+          </article>
         </div>
         <div class="col-12 col-lg-6">
-          <article>article2</article>
+          <article>
+            <img
+              class="article-img"
+              src="/src/img/Henri-Cartier-Bresson.jpg.webp"
+              alt="bresson"
+            />
+            <h3>Henri cartier Bresson</h3>
+            <p>30.05.23-19.08.23</p>
+            <p>
+              Henri Cartier-Bresson, né le 22 août 1908 à Chanteloup-en-Brie et
+              mort le 3 août 2004 à Montjustin, est un photographe,
+              photojournaliste et dessinateur français. Connu pour la précision
+              et le graphisme de ses compositions (jamais recadrées au
+              tirage)note 1, il s'est surtout illustré dans la photographie de
+              rue, la représentation des aspects pittoresques ou signifiants de
+              la vie quotidienne (Les Européens). Avec Robert Capa, David
+              Seymour, William Vandivert et George Rodger, ils fondent en 1947
+              l'agence coopérative Magnum Photos.
+            </p>
+          </article>
         </div>
       </div>
     </div>
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-12"><H2 class="footer-title">CONTACT</H2></div>
-          <div class="col-12"> <a href="https://www.google.com/maps/place/Rue+de+Lausanne+77,+
+          <div class="col-12"><h2 class="footer-title">CONTACT</h2></div>
+          <div class="col-12">
+            <a
+              href="https://www.google.com/maps/place/Rue+de+Lausanne+77,+
             1700+Fribourg/@46.8054248,7.1572226,17z/data=!3m1!4b1!4m5!3m4!1s0x478e692fd5a46cb7:
-            0x3f466c2a04ceabca!8m2!3d46.8054248!4d7.1572226">
-            Rue de lausanne 77 <br> 1700 fribourg
-          </a></div>
-          <div class="col-12"> <a href="mailto:info@morekaffee.ch">info@morekaffee.ch</a></div>
+            0x3f466c2a04ceabca!8m2!3d46.8054248!4d7.1572226"
+            >
+              Rue de lausanne 77 <br />
+              1700 fribourg
+            </a>
+          </div>
+          <div class="col-12">
+            <a href="mailto:info@morekaffee.ch">info@morekaffee.ch</a>
+          </div>
           <div class="col-12">contact</div>
-          <div class=" col-lg-2 offset-10">logo</div>
+          <div class="col-lg-2 offset-10">logo</div>
         </div>
       </div>
     </footer>

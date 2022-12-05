@@ -5,6 +5,7 @@
 // ==================================== */
 :root {
   --red: #ff0000;
+  --white: #ffffff;
 }
 
 .row + .row {
@@ -58,18 +59,28 @@ video {
 .row-about {
   text-align: center;
 }
+
 h2 {
-  font-family: PPAgrandir-TextBold;
   font-size: 50px;
   color: var(--red);
   letter-spacing: 0;
 }
+h3 {
+  font-family: "PP Agrandir";
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--red);
+  letter-spacing: 0;
+}
 p {
-  font-family: PPAgrandirVariable;
+  font-family: "PP Agrandir";
   font-size: 16px;
   color: var(--red);
   letter-spacing: 0;
   padding: 10px 0 108px 0;
+}
+.ingredient {
+  padding-top: 6px;
 }
 
 .img {
@@ -86,11 +97,36 @@ p {
   font-size: 18px;
   color: red;
 }
-footer {
-  background-color: #ff0000;
-  text-align: right;
+
+.horaires {
+  background-image: url(../img/café/pexels-photo-2323432.webp);
+  max-width: 100%;
+  height: auto;
+}
+.galerie-img {
+  max-width: 100%;
+  height: auto;
+
+  object-fit: contain;
+}
+.article-img {
+  height: 106px;
+  width: 100%;
+  object-fit: cover;
+}
+article {
+  background-color: var(--white);
 }
 a {
   text-decoration: none;
+  color: #ffffff;
+}
+.footer-title {
+  color: var(--white);
+  font-family: "PP Agrandir";
+  font-size: 50px;
+}
+footer {
+  background-color: var(--red);
   text-align: right;
 }
