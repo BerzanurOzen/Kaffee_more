@@ -1,25 +1,8 @@
 @import "bootstrap/scss/bootstrap-grid";
 
-/*@font-face {
-  font-family: "PP Agrandir";
-  src: url("PPAgrandir-Regular.woff2") format("woff2");
-  font-weight: normal;
-  font-style: normal;
-  font-display: swap;
-}
-
-@font-face {
-  font-family: "PP Agrandir";
-  src: url("PPAgrandir-TextBold.woff2") format("woff2");
-  font-weight: bold;
-  font-style: normal;
-  font-display: swap;
-}
-
 /* ====================================
 // reset rules
 // ==================================== */
-
 :root {
   --red: #ff0000;
 }
@@ -58,13 +41,14 @@ body {
 a {
   color: inherit;
 }
-
+/*
 img,
 video {
   max-inline-size: 100%;
   block-size: auto;
   vertical-align: middle;
 }
+*/
 .header {
   background-color: antiquewhite;
 }
@@ -88,7 +72,16 @@ p {
   padding: 10px 0 108px 0;
 }
 
-.img-green {
+.img {
   max-width: 100%;
   height: auto;
+}
+
+.img-texte {
+  position: absolute;
+  top: 2772px;
+  left: 50%;
+  transform: translate(50%, 50%);
+  font-size: 18px;
+  color: red;
 }
