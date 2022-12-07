@@ -28,6 +28,9 @@
 
 html {
   font-size: 16px;
+  color: var(--red);
+  letter-spacing: 0;
+  font-family: "PPAgrandir";
 }
 
 body {
@@ -41,15 +44,10 @@ body {
 
 a {
   color: inherit;
+  text-decoration: none;
+  color: #ffffff;
 }
-/*
-img,
-video {
-  max-inline-size: 100%;
-  block-size: auto;
-  vertical-align: middle;
-}
-*/
+
 .header {
   background-color: antiquewhite;
 }
@@ -62,22 +60,28 @@ video {
 
 h2 {
   font-size: 50px;
-  color: var(--red);
-  letter-spacing: 0;
+  font-family: "PPAgrandir";
+  margin: 40px 0px 24px 0px;
 }
 h3 {
-  font-family: "PP Agrandir";
   font-weight: bold;
   font-size: 20px;
-  color: var(--red);
-  letter-spacing: 0;
+  font-family: "PPAgrandir";
+}
+.day {
+  text-align: center;
+  padding: 2px;
 }
 p {
   font-family: "PP Agrandir";
-  font-size: 16px;
   color: var(--red);
   letter-spacing: 0;
   padding: 10px 0 108px 0;
+}
+.img-trans {
+  position: absolute;
+  max-width: 100%;
+  height: auto;
 }
 .ingredient {
   padding-top: 6px;
@@ -129,11 +133,20 @@ article {
 }
 h3,
 .artist-name {
-  padding: 8px 0px 5px 8px;
+  text-align: left;
+  margin: 11px 0 5px 8px;
 }
-a {
-  text-decoration: none;
-  color: #ffffff;
+.date {
+  text-align: left;
+  margin: 5px 0 0px 8px;
+}
+.article-texte {
+  font-family: "PPAgrandir";
+  font-size: 16px;
+  align-items: center;
+}
+article {
+  margin-bottom: 46px;
 }
 .footer-title {
   color: var(--white);
@@ -143,4 +156,5 @@ a {
 footer {
   background-color: var(--red);
   text-align: right;
+  margin: 113px 0 0 0;
 }
