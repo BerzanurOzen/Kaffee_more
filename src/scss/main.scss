@@ -72,11 +72,16 @@ h3 {
   text-align: center;
   padding: 2px;
 }
+.hour {
+  font-family: "PP Agrandir";
+  text-align: center;
+}
 p {
   font-family: "PP Agrandir";
   color: var(--red);
   letter-spacing: 0;
   padding: 10px 0 108px 0;
+  text-align: justify;
 }
 .img-trans {
   position: absolute;
@@ -84,7 +89,8 @@ p {
   height: auto;
 }
 .ingredient {
-  padding-top: 6px;
+  padding-top: 6px 0 0 0;
+  text-align: left;
 }
 
 .img {
