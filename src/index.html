@@ -23,25 +23,28 @@
   <body>
     <div class="container">
       <div class="row">
-        <div class="col">logo</div>
-        <div class="col">
-          <a href="">CARTE</a>
-        </div>
-        <div class="col">
-          <a href="">HORAIRES</a>
-        </div>
-        <div class="col">
-          <a href="">GALERIE</a>
-        </div>
-        <div class="col">
-          <a href=""> PROCHAINS ARTISTES</a>
-        </div>
-        <div class="col">
-          <a href="">CONTACT</a>
-        </div>
-        <div class="col">
-          <p></p>
-          <p></p>
+        <div class="header">
+          <div class="col">logo</div>
+
+          <div class="col">
+            <a href="#CARTE">CARTE</a>
+          </div>
+          <div class="col">
+            <a href="#HORAIRES">HORAIRES</a>
+          </div>
+          <div class="col">
+            <a href="#GALERIE">GALERIE</a>
+          </div>
+          <div class="col">
+            <a href="#PROCHAINS ARTISTES"> PROCHAINS ARTISTES</a>
+          </div>
+          <div class="col">
+            <a href="#CONTACT">CONTACT</a>
+          </div>
+          <div class="col-2">
+            <p>LUN-9:00</p>
+            <p>OPEN</p>
+          </div>
         </div>
       </div>
     </div>
@@ -77,12 +80,12 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-12"><h2>CARTE</h2></div>
+        <div class="col-12"><h2 id="CARTE">CARTE</h2></div>
         <div class="col-3 col-lg-2 offset-2">
           <h3>MOCHA</h3>
           <p class="ingredient">expresso, sirop chocolat, lait</p>
         </div>
-        <div class="col-3 offset-2 col-lg-2 offset-4">
+        <div class="col-3 offset-2 col-lg-2 offset-2">
           <h3>EXPRESSO</h3>
           <p class="ingredient">Assemblage: 30% Arabica et 20% Robusta</p>
         </div>
@@ -90,7 +93,7 @@
           <h3>WHITE MOCHA</h3>
           <p class="ingredient">expresso, sirop chocolat blanc, lait</p>
         </div>
-        <div class="col-3 offset-2 col-lg-2 offset-4">
+        <div class="col-3 offset-2 col-lg-2 offset-2">
           <h3>CAPPUCCINO</h3>
           <p class="ingredient">50% expresso, 50% lait, mousse de lait</p>
         </div>
@@ -124,7 +127,7 @@
     <div class="container">
       <div class="row">
         <div class="horaires">
-          <div class="col-12"><h2>HORAIRES</h2></div>
+          <div class="col-12"><h2 id="HORAIRES">HORAIRES</h2></div>
           <div class="col-12"><h3 class="day">LUN-VEN</h3></div>
           <div class="col-12"><p class="hour">07:00-18:00</p></div>
           <div class="col-12"><h3 class="day">SAM-DIM</h3></div>
@@ -134,7 +137,7 @@
     </div>
     <div class="container">
       <div class="row">
-        <div class="col-12"><h2>GALERIE</h2></div>
+        <div class="col-12"><h2 id="GALERIE">GALERIE</h2></div>
 
         <div class="col-6">
           <img
@@ -188,7 +191,9 @@
 
     <div class="container">
       <div class="row">
-        <div class="col-12"><h2>PROCHAINS ARTISTES</h2></div>
+        <div class="col-12">
+          <h2 id="PROCHAINS ARTISTES">PROCHAINS ARTISTES</h2>
+        </div>
         <div class="col-12 col-lg-6">
           <article>
             <img
@@ -233,19 +238,23 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-12"><h2 class="footer-title">CONTACT</h2></div>
+          <div class="col-12">
+            <h2 class="footer-title" id="CONTACT">CONTACT</h2>
+          </div>
           <div class="col-12">
             <a
+              class="adress"
               href="https://www.google.com/maps/place/Rue+de+Lausanne+77,+
             1700+Fribourg/@46.8054248,7.1572226,17z/data=!3m1!4b1!4m5!3m4!1s0x478e692fd5a46cb7:
             0x3f466c2a04ceabca!8m2!3d46.8054248!4d7.1572226"
-            >
-              Rue de lausanne 77 <br />
-              1700 fribourg
+              >Rue de lausanne 77<br />1700 fribourg
             </a>
+            <br />
           </div>
           <div class="col-12">
-            <a href="mailto:info@morekaffee.ch">info@morekaffee.ch</a>
+            <a class="adress" href="mailto:info@morekaffee.ch"
+              >info@morekaffee.ch</a
+            >
           </div>
           <div class="col-12">contact</div>
         </div>
