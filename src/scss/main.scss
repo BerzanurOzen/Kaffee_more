@@ -53,10 +53,26 @@ a {
 .row-about {
   text-align: center;
 }
+
+.flex-container {
+  display: flex;
+}
+.flex-container > div {
+  font-size: 20px;
+  color: #ff0000;
+  flex-direction: column;
+}
+.box1 {
+  justify-content: flex-start;
+}
+.box2 {
+  wrap-reverse: column;
+}
+
 h2 {
   font-size: 50px;
   font-family: "PPAgrandir";
-  margin: 40px 0px 11px 0px;
+  margin: 40px 0px 20px 0px;
   text-align: center;
 }
 h3 {
@@ -96,9 +112,7 @@ p {
 .img {
   max-width: 100%;
   height: auto;
-  display: block;
 }
-
 .img-texte {
   position: absolute;
   top: 2772px;
@@ -160,13 +174,13 @@ article {
   color: white;
   font-family: "PP Agrandir";
   font-size: 50px;
-  margin: 0;
+  margin-top: 27px;
 }
 footer {
   background-color: var(--red);
-  text-align: right;
+  text-align: left;
   margin: 113px 0 0 0;
 }
 .adress {
-  text-align: left;
+  margin-bottom: 15px;
 }
