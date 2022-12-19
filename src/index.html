@@ -19,37 +19,49 @@
       type="font/woff2"
       crossorigin
     />
+    <script
+      src="https://kit.fontawesome.com/b978569899.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
-    <div class="container">
-      <div class="row">
-        <div class="header">
-          <div class="col">logo</div>
+    <header>
+      <div class="container">
+        <div class="row">
+          <div class="header">
+            <div class="col-12 g-0">
+              <video autoplay muted loop id="café">
+                <source src="../src/img/café.mp4" />
+              </video>
+            </div>
+            <div class="col">logo</div>
 
-          <div class="col">
-            <a href="#CARTE">CARTE</a>
-          </div>
-          <div class="col">
-            <a href="#HORAIRES">HORAIRES</a>
-          </div>
-          <div class="col">
-            <a href="#GALERIE">GALERIE</a>
-          </div>
-          <div class="col">
-            <a href="#PROCHAINS ARTISTES"> PROCHAINS ARTISTES</a>
-          </div>
-          <div class="col">
-            <a href="#CONTACT">CONTACT</a>
-          </div>
-          <div class="flex-container">
-            <div class="box1">LUN-9:00</div>
-            <div class="box2">OPEN</div>
+            <div class="col">
+              <a class="list-ancre" href="#CARTE">CARTE</a>
+            </div>
+            <div class="col">
+              <a class="list-ancre" href="#HORAIRES">HORAIRES</a>
+            </div>
+            <div class="col">
+              <a class="list-ancre" href="#GALERIE">GALERIE</a>
+            </div>
+            <div class="col">
+              <a class="list-ancre" href="#PROCHAINS ARTISTES">
+                PROCHAINS ARTISTES</a
+              >
+            </div>
+            <div class="col">
+              <a class="list-ancre" href="#CONTACT">CONTACT</a>
+            </div>
+            <div class="flex-container">
+              <div class="box1">LUN-9:00</div>
+              <div class="box2">OPEN</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-
+    </header>
     <div class="container">
       <div class="row">
         <div class="header">
@@ -75,53 +87,72 @@
       </div>
     </div>
     <img src="/src/img/café/photo_café_2.png" alt="fenetre" />
-    <div class="container">
+    <div class="container menu">
       <div class="row">
-        <div class="col-12"><h2 id="CARTE">CARTE</h2></div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6 offset-1"><h2 id="CARTE">CARTE</h2></div>
+        <div class="col-6">
           <h3>MOCHA</h3>
-          <p class="ingredient">expresso, sirop chocolat, lait</p>
+          <p class="ingredient">
+            expresso, sirop <br />
+            chocolat, lait
+          </p>
         </div>
-        <div class="col-3 offset-2 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>EXPRESSO</h3>
-          <p class="ingredient">Assemblage: 30% Arabica et 20% Robusta</p>
+          <p class="ingredient">
+            Assemblage: 30% <br />
+            Arabica et 20% <br />
+            Robusta
+          </p>
         </div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>WHITE MOCHA</h3>
-          <p class="ingredient">expresso, sirop chocolat blanc, lait</p>
+          <p class="ingredient">
+            expresso, sirop <br />
+            chocolat blanc, lait
+          </p>
         </div>
-        <div class="col-3 offset-2 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>CAPPUCCINO</h3>
-          <p class="ingredient">50% expresso, 50% lait, mousse de lait</p>
+          <p class="ingredient">
+            50% expresso, 50% <br />
+            lait, mousse de lait
+          </p>
         </div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>Flat WHITE</h3>
           <p class="ingredient">petit latte</p>
         </div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>LATTE</h3>
-          <p class="ingredient">30% expresso, 70% lait, mousse de lait</p>
+          <p class="ingredient">
+            30% expresso, 70% <br />
+            lait, mousse de lait
+          </p>
         </div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>AMERICANO</h3>
-          <p class="ingredient">expresso, eau chaude</p>
+          <p class="ingredient">
+            expresso, eau <br />
+            chaude
+          </p>
         </div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>CHOCOLATE</h3>
           <p class="ingredient">chocolat, lait</p>
         </div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>TEA</h3>
           <p class="ingredient">thé du moment</p>
         </div>
-        <div class="col-3 col-lg-2 offset-2">
+        <div class="col-6">
           <h3>ICE TEA</h3>
           <p class="ingredient">thé foid maison</p>
         </div>
       </div>
     </div>
 
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="horaires">
           <div class="col-12"><h2 id="HORAIRES">HORAIRES</h2></div>
@@ -132,7 +163,7 @@
         </div>
       </div>
     </div>
-    <div class="container">
+    <div class="container-fluid">
       <div class="row">
         <div class="col-12"><h2 id="GALERIE">GALERIE</h2></div>
 
@@ -178,7 +209,7 @@
         </div>
         <div class="col-6 col-lg-6">
           <img
-            class="galerie-img"
+            class="galerie-img test"
             src="/src/img/photo galerie/ansel_adams_montagne_7.png"
             alt="ansel_adams_montagne_07"
           />
@@ -191,7 +222,7 @@
         <div class="col-12">
           <h2 id="PROCHAINS ARTISTES">PROCHAINS ARTISTES</h2>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 article">
           <article>
             <img
               class="article-img"
@@ -208,7 +239,7 @@
             </p>
           </article>
         </div>
-        <div class="col-12 col-lg-6">
+        <div class="col-12 col-lg-6 article">
           <article>
             <img
               class="article-img"
@@ -233,7 +264,7 @@
       </div>
     </div>
     <footer>
-      <div class="container">
+      <div class="container-fluid">
         <div class="row">
           <div class="col-12">
             <h2 class="footer-title" id="CONTACT">CONTACT</h2>
@@ -244,21 +275,26 @@
               href="https://www.google.com/maps/place/Rue+de+Lausanne+77,+
             1700+Fribourg/@46.8054248,7.1572226,17z/data=!3m1!4b1!4m5!3m4!1s0x478e692fd5a46cb7:
             0x3f466c2a04ceabca!8m2!3d46.8054248!4d7.1572226"
-              >Rue de lausanne 77<br />1700 fribourg
+              >Rue de Lausanne 77<br />1700 Fribourg
             </a>
-            <br />
           </div>
           <div class="col-12">
             <a class="adress" href="mailto:info@morekaffee.ch"
               >info@morekaffee.ch</a
             >
             <br />
-            <a href="tel:+41263222808">+41 26 322 28 08</a>
+            <a class="adress" href="tel:+41263222808">+41 26 322 28 08</a>
           </div>
-          <div class="col-12">
-            <i class="fa-brands fa-square-facebook">facebook</i>
-            <i class="fa-brands fa-square-twitter">twitter</i>
-            <i class="fa-brands fa-square-instagram">instagram</i>
+          <div class="col-12 link">
+            <a href="https://fr-fr.facebook.com/"
+              ><i class="fa-brands fa-square-facebook"></i>
+            </a>
+            <a href="https://twitter.com/"
+              ><i class="fa-brands fa-square-twitter"></i
+            ></a>
+            <a href="https://www.instagram.com/?hl=fr"
+              ><i class="fa-brands fa-square-instagram"></i
+            ></a>
           </div>
         </div>
       </div>
