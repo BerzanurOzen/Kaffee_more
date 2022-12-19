@@ -1,5 +1,23 @@
 @import "bootstrap/scss/bootstrap-grid";
 
+@font-face {
+  font-family: "PPAgrandir";
+  src: url("../fonts/PPAgrandir-Regular.woff2") format("woff2"),
+    url("../fonts/PPAgrandir-Regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PPAgrandir";
+  src: url("../fonts/PPAgrandir-TextBold.woff2") format("woff2"),
+    url("../fonts/PPAgrandir-TextBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .article {
@@ -7,6 +25,8 @@
   }
   .horaires {
     padding: 50px;
+  }
+  .list-ancre {
   }
 }
 
@@ -20,6 +40,9 @@
   }
   .horaires {
     padding: 102px;
+  }
+  .burger {
+    display: none;
   }
 }
 
@@ -64,8 +87,8 @@ a {
 .list-ancre {
   text-align: center;
   color: var(--red);
-  padding: 37px 0px 3px 0px;
 }
+
 #café {
   object-fit: cover;
   width: 100%;
@@ -102,7 +125,6 @@ h2 {
   text-align: center;
 }
 h3 {
-  font-family: "PPAgrandir-TextBold";
   font-size: 20px;
   font-family: "PPAgrandir";
 }
@@ -162,6 +184,13 @@ img {
   // height: auto;
   padding-bottom: 20px;
   // padding: 10px 0px 10px 0px;
+}
+.little {
+  height: 50%;
+  flex: none;
+}
+.big {
+  height: 100%;
 }
 .container-fluid {
   width: 100%;
