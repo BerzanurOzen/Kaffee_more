@@ -23,12 +23,33 @@
       src="https://kit.fontawesome.com/b978569899.js"
       crossorigin="anonymous"
     ></script>
+
     <link rel="stylesheet" href="scss/main.scss" />
   </head>
   <body>
     <header>
       <div class="container">
         <div class="row">
+          <div class="menu-burger">
+            <div id="mySidenav" class="sidenav">
+              <a id="closeBtn" href="#" class="close">&times;</a>
+              <ul>
+                <li><a href="#CARTE">CARTE</a></li>
+                <li><a href="#HORAIRES">HORAIRES</a></li>
+                <li><a href="#GALERIE">GALERIE</a></li>
+                <li><a href="#PROCHAINS"> ARTISTES</a></li>
+                <li><a href="#CONTACT">CONTACTS</a></li>
+              </ul>
+            </div>
+
+            <a href="#" id="openBtn">
+              <span class="burger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </a>
+          </div>
           <div class="header">
             <div class="col-12">
               <video autoplay muted loop id="café">
@@ -38,25 +59,26 @@
 
             <div class="col">MORE <br />KAFFEE</div>
 
-            <div class="col-12 offset-4">
+            <div class="col-12">
               <h2><a class="list-ancre" href="#CARTE">CARTE</a></h2>
             </div>
-            <div class="col-12 offset-4">
+            <div class="col-12">
               <h2><a class="list-ancre" href="#HORAIRES">HORAIRES</a></h2>
             </div>
-            <div class="col-12 offset-4">
+            <div class="col-12">
               <h2><a class="list-ancre" href="#GALERIE">GALERIE</a></h2>
             </div>
-            <div class="col-12 offset-4">
+            <div class="col-12">
               <h2>
                 <a class="list-ancre" href="#PROCHAINS ARTISTES">
                   PROCHAINS ARTISTES</a
                 >
               </h2>
             </div>
-            <div class="col-12 offset-4">
+            <div class="col-12">
               <h2><a class="list-ancre" href="#CONTACT">CONTACT</a></h2>
             </div>
+
             <div class="flex-container">
               <div class="box1">LUN-9:00</div>
               <div class="box2">OPEN</div>
@@ -312,5 +334,15 @@
     </footer>
 
     <script src="js/main.js" type="module"></script>
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myLinks");
+        if (x.style.display === "block") {
+          x.style.display = "none";
+        } else {
+          x.style.display = "block";
+        }
+      }
+    </script>
   </body>
 </html>
